@@ -19,16 +19,16 @@ The robot integrates high-torque motors, precise sensors, and a robust control s
 
 ## Robot Images
 
-<img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/Image%202025-11-22%20at%2015.06.44_b4203e6c.jpg?raw=true" alt="Image 5" style="width: 300px; max-width: 100%; height: auto;" />
+<img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/Image%202025-11-22%20at%2015.06.44_b4203e6c.jpg?raw=true" alt="Image 5" style="width: 500px; max-width: 100%; height: auto;" />
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-  <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/IMG-20250925-WA0079.jpg?raw=true" alt="Image 1" style="width: 300px; max-width: 100%; height: auto;" />
-  <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/IMG-20250925-WA0091.jpg?raw=true" alt="Image 2" style="width: 300px; max-width: 100%; height: auto;" />
+  <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/IMG-20250925-WA0079.jpg?raw=true" alt="Image 1" style="width:500px; max-width: 100%; height: auto;" />
+  <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/IMG-20250925-WA0091.jpg?raw=true" alt="Image 2" style="width: 500px; max-width: 100%; height: auto;" />
 
 </div>
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-   <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/Image%202025-11-22%20at%2015.10.54_2ed6a447.jpg?raw=true" alt="Image 3" style="width: 300px; max-width: 100%; height: auto;" />
-  <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/Image%202025-11-22%20at%2015.11.25_562c53e6.jpg?raw=true" alt="Image 4" style="width: 300px; max-width: 100%; height: auto;" />
+   <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/Image%202025-11-22%20at%2015.10.54_2ed6a447.jpg?raw=true" alt="Image 3" style="width: 500px; max-width: 100%; height: auto;" />
+  <img src="https://github.com/Saeed-Ghazal/Sumo-Robot/blob/main/Image%202025-11-22%20at%2015.11.25_562c53e6.jpg?raw=true" alt="Image 4" style="width: 500px; max-width: 100%; height: auto;" />
 </div>
 
 ---
