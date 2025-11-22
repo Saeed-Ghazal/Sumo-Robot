@@ -1,75 +1,76 @@
-Sumo Robot
+# Sumo Robot – National Sumo Robot Competition – HTUJO 2024
 
-We are proud to have participated as **Team Lambda AI Solution** in the **4th National Sumo Robot Competition – HTUJO**, organized by **Hussein Technical University**. This was our first experience in a sumo robot competition 🤖, filled with challenges, learning, and teamwork.
+## Overview
+This sumo robot is designed to compete in the **National Sumo Robot Competition – HTUJO 2024**.  
+It is built for agility, speed, and autonomous decision-making to push the opponent robot out of the ring efficiently.
 
----
-
-## ⚡ Robot Features & Innovations
-
-Our sumo robot was designed to maximize performance in the competition while respecting the rules:
-
-- **High-Torque DC Motors** for strong pushing power.  
-- **VL53L0X Lidar Sensors** for precise 3D distance measurements and opponent tracking.  
-- **TCRT-5000 IR Sensors** for edge/line detection to avoid leaving the dohyo.  
-- **Autonomous Operation** for independent movement during bouts.  
-- **Safety & Stability Design** to prevent tipping or detachment of parts.  
-- **BTS7960 Motor Drivers** for controlling high-current motors.  
-- **LiPo Battery Pack (3S)** for sufficient power supply.  
-- **LM2596 Buck Converters** to provide stable voltage to sensors and controller.  
-- **User Interface Buttons and Buzzer** for pre-match setup and notifications.  
+The robot integrates high-torque motors, precise sensors, and a robust control system to perform in the competitive sumo arena.
 
 ---
 
-## 🛠️ Components
-
-| Component | Quantity | Description |
-|-----------|---------|-------------|
-| DC Motors | 2 | High torque motors for pushing opponents. |
-| BTS7960 Motor Driver | 2 | Controls power to the DC motors. |
-| VL53L0X Lidar Sensor | 6 | Measures distance to detect opponent's position in 3D. |
-| TCRT-5000 IR Sensor | 4 | Detects white boundary lines to prevent leaving the ring. |
-| PCF8574 I2C Expander | 1 | Extends available I/O pins for sensors and buttons. |
-| 3S LiPo Battery | 1 | Main power supply for motors and electronics. |
-| LM2596 Buck Converter | 3 | Steps down voltage for controller and sensors. |
-| Arcade Buttons | 6 | Pre-match configuration and commands. |
-| Round Rocker Switch | 3 | Power and system switches. |
-| Buzzer Module | 8 | Audio feedback and alerts. |
-| FAN 12V | 1 | Cooling and optional air management. |
+## Robot Features
+- Autonomous movement and decision-making.
+- High-torque DC motors for rapid pushes.
+- Precision distance sensors (Lidar, IR) to detect opponent and ring boundaries.
+- Safety features to avoid falling off the ring.
+- Compact design within competition weight and size limits.
 
 ---
 
-## 📜 Competition Summary & Rules
+## Robot Images
 
-**HTU National Sumo Robot 2024 – Overview:**
+<img src="https://github.com/Saeed-Ghazal/Fier-Fihting-Robot/blob/main/Robot%20image.png?raw=true" alt="Robot Image" style="width: 400px; max-width: 100%; height: auto;" />
 
-- **Match Duration:** Each bout lasts up to 3 minutes per round.  
-- **Number of Rounds:** Best of 3 rounds per match.  
-- **Objective:** Push opponent robot completely out of the dohyo.  
-- **Robot Weight Limit:** ≤ 3 kg  
-- **Robot Dimensions:** Max 20cm width & length (height unrestricted)  
-- **Autonomy:** Robots must operate independently during matches. Remote control is not allowed.  
-- **Safety:** No suction, magnets, or adhesives for unfair stabilization.  
-- **Scoring:**  
-  - Win a round by pushing opponent out = 1 point  
-  - Win 2 rounds = win the bout  
-  - Infractions or early movement result in warnings or penalties.  
-
-> ⚠️ Full compliance with rules ensures safety, fair play, and competition integrity.
-
----
-
-## 📸 Robot Images
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-  <img src="ROBOT_IMAGE_RAW_URL" alt="Robot Front" style="width: 300px; height: auto;" />
-  <img src="ROBOT_IMAGE_RAW_URL_2" alt="Robot Side" style="width: 300px; height: auto;" />
+  <img src="https://github.com/Saeed-Ghazal/Fier-Fihting-Robot/blob/main/image1.jpg?raw=true" alt="Robot Image 1" style="width: 300px; height: auto;" />
+  <img src="https://github.com/Saeed-Ghazal/Fier-Fihting-Robot/blob/main/image2.jpg?raw=true" alt="Robot Image 2" style="width: 300px; height: auto;" />
 </div>
 
 ---
 
-## 👥 Team & Acknowledgements
+## Components
 
-- Team: Lambda AI Solution  
-- Event: 4th National Sumo Robot Competition – HTUJO  
-- Venue: Hussein Technical University  
+| Component | Quantity | Description |
+|-----------|---------|-------------|
+| VL53L0X Lidar Sensor | 6 | Measures distance to detect opponent position accurately in 3D. |
+| TCRT-5000 IR Sensor | 4 | Detects white boundary line to prevent falling off the ring. |
+| PCF8574 I2C Expander | 1 | Expands IO pins for multiple sensors and buttons. |
+| BTS7960 Motor Driver | 2 | High-current motor driver for main drive wheels. |
+| 3S LiPo Battery | 1 | Main power source providing high voltage and current. |
+| LM2596 Step-Down Module | 3 | Reduces battery voltage to safe levels for controllers and sensors. |
+| Arcade Buttons | 6 | User input for setup and strategy selection. |
+| Round Rocker Switch | 3 | Power and system switches. |
+| Buzzer Module | 8 | Audio alerts for status, countdown, or opponent detection. |
+| FAN 12V | 1 | Airflow for cooling or mechanical operation (not for suction). |
 
-We thank the organizers and all participating teams for an amazing learning experience and competition.
+---
+
+## Rules Summary
+
+- **Arena**: Circular sumo ring with 1.5m diameter, black floor, white border (3 cm thick).  
+- **Robot Specs**:
+  - Max weight: 3 kg
+  - Max length/width: 20 cm
+  - No remote control allowed; fully autonomous.
+  - No adhesives, suction, magnets, or liquids allowed to fix robot to the arena.
+- **Match**:
+  - Best-of-three rounds.
+  - Each round lasts up to 3 minutes.
+  - A robot wins a round by pushing the opponent out of the ring completely.
+  - Red card: disqualification.
+  - Yellow card: warnings; 3 per round may result in round loss.
+- **Scoring**:
+  - 1 point for pushing opponent out.
+  - 2 points for winning two rounds.
+  - Infractions, delays, or detached parts result in penalties.
+
+---
+
+## Summary
+This robot is designed for competitive sumo matches, focusing on:
+
+- High-speed autonomous pushes
+- Accurate boundary and opponent detection
+- Compliance with HTUJO 2024 rules
+
+It demonstrates a balance of mechanical design, electronics, and autonomous control suitable for national-level competition.
